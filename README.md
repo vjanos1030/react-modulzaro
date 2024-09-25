@@ -96,7 +96,7 @@ A feladathoz tartozó kérdésbankot tartalmazó `json`-t itt találod: [Kérdé
 
 ---
 
-**Összesen: 50 pont**
+# **Összesen: 50 pont**
 
 ### EXTRA (10 pont)
 
