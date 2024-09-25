@@ -69,25 +69,25 @@ A feladathoz tartozó kérdésbankot tartalmazó `json`-t itt találod: [Kérdé
 
 - **Válaszadási lehetőség** (5 pont): A felhasználó kiválaszthatja a válaszokat a kérdésekre, és a választás megfelelően tárolódik.
 - **Navigáció a kérdések között** (3 pont): A felhasználó válasz után helyesen léphet a következő kérdésre.
-- **Válaszvalidáció** (2 pont): Ha a felhasználó nem választ ki semmit, egy figyelmeztetés jelenik meg, és nem léphet tovább.
+- **Válaszvalidáció** (2 pont): Ha a felhasználó nem választ ki semmit, nem léphet tovább.
 
 ### 3. **Pontszámítás és előrehaladás (progress bar)** (10 pont)
 
 - **Pontszám helyes kiszámítása** (5 pont): A felhasználó válaszai alapján a rendszer helyesen számolja a pontokat.
 - **Progress bar működése** (3 pont): A progress bar helyesen jelzi a felhasználó előrehaladását a kérdések között.
-- **Átlagos helyes válaszok megjelenítése** (2 pont): A felhasználó láthatja a kvíz végén, hogy hány kérdésre válaszolt helyesen.
+- **Helyes válaszok gyűjtése** (2 pont): A helyes válaszok számának eltárolása.
 
 ### 4. **Az eredmény dinamikus megjelenítése** (10 pont)
 
-- **Eredmény kiszámítása és megjelenítése** (5 pont): A kvíz végén a rendszer helyesen számolja ki a végső eredményt és megjeleníti azt.
-- **Személyre szabott üzenet** (3 pont): Az eredmény függvényében személyre szabott üzenetet jelenít meg (pl. kiváló teljesítmény vagy bátorítás a jobb eredményhez).
-- **Kvíz újraindítása (Restart gomb)** (2 pont): A felhasználó újrakezdheti a kvízt a restart gombbal, és a kérdések újra véletlenszerű sorrendben jelennek meg.
+- **Eredmény kiszámítása és megjelenítése** (3 pont): A kvíz végén a rendszer helyesen számolja ki a végső eredményt és megjeleníti azt.
+- **Személyre szabott üzenet** (3 pont): Az eredmény függvényében személyre szabott üzenetet jelenít meg (pl. kiváló teljesítmény vagy bátorítás a jobb eredményhez a képek alapján).
+- **Kvíz újraindítása (Restart gomb)** (4 pont): A felhasználó újrakezdheti a kvízt a restart gombbal, és a kérdések újra véletlenszerű sorrendben jelennek meg.
 
 ### 5. **Stílus és megjelenés** (5 pont)
 
-- **Reszponzív dizájn** (2 pont): Az alkalmazás reszponzív, mobilon és asztali nézetben is jól használható.
+- **Reszponzív dizájn** (1 pont): Az alkalmazás reszponzív, mobilon és asztali nézetben is jól használható.
 - **Felhasználóbarát felület** (2 pont): Az alkalmazás felhasználóbarát és könnyen használható.
-- **Egységes stílus** (1 pont): Az alkalmazás stílusa konzisztens az összes komponens között.
+- **Egységes stílus** (2 pont): Az alkalmazás stílusa konzisztens az összes komponens között.
 
 ### 6. **Hibakezelés és validáció** (5 pont)
 
