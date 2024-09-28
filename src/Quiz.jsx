@@ -9,7 +9,7 @@ const Quiz = () => {
   const [isQuizFinished, setIsQuizFinished] = useState(false);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/questions')
+    axios.get('http://localhost:1500/questions')
       .then(response => {
         setQuestions(shuffleArray(response.data)); 
       })

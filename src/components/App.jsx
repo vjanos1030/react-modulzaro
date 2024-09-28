@@ -18,7 +18,7 @@ const App = () => {
   const [showModal, setShowModal] = useState(false);
 
   const fetchQuestions = () => {
-    axios.get('http://localhost:5000/questions')
+    axios.get('http://localhost:1500/questions')
       .then(response => {
         const shuffledQuestions = response.data.map(question => {
           const shuffledOptions = shuffleArray([...question.options]);

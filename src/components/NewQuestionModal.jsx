@@ -23,7 +23,7 @@ const NewQuestionModal = ({ closeModal, refreshQuestions }) => {
       correctAnswer,
     };
 
-    axios.post('http://localhost:5000/questions', newQuestion)
+    axios.post('http://localhost:1500/questions', newQuestion)
       .then(() => {
         refreshQuestions();
         closeModal();
