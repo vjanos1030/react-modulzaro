@@ -59,45 +59,45 @@ A feladathoz tartozó kérdésbankot tartalmazó `json`-t itt találod: [Kérdé
 
 ## Pontozás:
 
-### 1. **Kérdések megjelenítése és véletlenszerűsítés** (10 pont)
+### 1. **Kérdések megjelenítése és véletlenszerűsítés** (5 pont)
 
-- **Kérdések lekérése a JSON server-ről** (4 pont): A kvíz kérdéseit helyesen kéri le a JSON server-ről.
-- **Kérdések és válaszok véletlenszerűsítése** (4 pont): A kérdések és a hozzájuk tartozó válaszopciók véletlenszerűsítése helyesen működik minden kvíz indításakor.
-- **Feltételes renderelés** (2 pont): A kérdések megfelelően jelennek meg, és a rendszer képes kezelni az esetleges üres adatokat (pl. ha a JSON server nem ad vissza kérdést).
+- **Kérdések lekérése a JSON server-ről** (2 pont): A kvíz kérdéseit helyesen kéri le a JSON server-ről.
+- **Kérdések és válaszok véletlenszerűsítése** (2 pont): A kérdések és a hozzájuk tartozó válaszopciók véletlenszerűsítése helyesen működik minden kvíz indításakor.
+- **Feltételes renderelés** (1 pont): A kérdések megfelelően jelennek meg, és a rendszer képes kezelni az esetleges üres adatokat (pl. ha a JSON server nem ad vissza kérdést).
 
-### 2. **Válaszadás és navigáció** (10 pont)
+### 2. **Válaszadás és navigáció** (5 pont)
 
-- **Válaszadási lehetőség** (5 pont): A felhasználó kiválaszthatja a válaszokat a kérdésekre, és a választás megfelelően tárolódik.
-- **Navigáció a kérdések között** (3 pont): A felhasználó válasz után helyesen léphet a következő kérdésre.
-- **Válaszvalidáció** (2 pont): Ha a felhasználó nem választ ki semmit, nem léphet tovább.
+- **Válaszadási lehetőség** (2 pont): A felhasználó kiválaszthatja a válaszokat a kérdésekre, és a választás megfelelően tárolódik.
+- **Navigáció a kérdések között** (2 pont): A felhasználó válasz után helyesen léphet a következő kérdésre.
+- **Válaszvalidáció** (1 pont): Ha a felhasználó nem választ ki semmit, nem léphet tovább.
 
-### 3. **Pontszámítás és előrehaladás (progress bar)** (10 pont)
+### 3. **Pontszámítás és előrehaladás (progress bar)** (5 pont)
 
-- **Pontszám helyes kiszámítása** (5 pont): A felhasználó válaszai alapján a rendszer helyesen számolja a pontokat.
-- **Progress bar működése** (3 pont): A progress bar helyesen jelzi a felhasználó előrehaladását a kérdések között.
-- **Helyes válaszok gyűjtése** (2 pont): A helyes válaszok számának eltárolása.
+- **Pontszám helyes kiszámítása** (2 pont): A felhasználó válaszai alapján a rendszer helyesen számolja a pontokat.
+- **Progress bar működése** (2 pont): A progress bar helyesen jelzi a felhasználó előrehaladását a kérdések között.
+- **Helyes válaszok gyűjtése** (1 pont): A helyes válaszok számának eltárolása.
 
-### 4. **Az eredmény dinamikus megjelenítése** (10 pont)
+### 4. **Az eredmény dinamikus megjelenítése** (5 pont)
 
-- **Eredmény kiszámítása és megjelenítése** (3 pont): A kvíz végén a rendszer helyesen számolja ki a végső eredményt és megjeleníti azt.
-- **Személyre szabott üzenet** (3 pont): Az eredmény függvényében személyre szabott üzenetet jelenít meg (pl. kiváló teljesítmény vagy bátorítás a jobb eredményhez a képek alapján).
-- **Kvíz újraindítása (Restart gomb)** (4 pont): A felhasználó újrakezdheti a kvízt a restart gombbal, és a kérdések újra véletlenszerű sorrendben jelennek meg.
+- **Eredmény kiszámítása és megjelenítése** (1 pont): A kvíz végén a rendszer helyesen számolja ki a végső eredményt és megjeleníti azt.
+- **Személyre szabott üzenet** (1 pont): Az eredmény függvényében személyre szabott üzenetet jelenít meg (pl. kiváló teljesítmény vagy bátorítás a jobb eredményhez a képek alapján).
+- **Kvíz újraindítása (Restart gomb)** (3 pont): A felhasználó újrakezdheti a kvízt a restart gombbal, és a kérdések újra véletlenszerű sorrendben jelennek meg.
 
-### 5. **Stílus és megjelenés** (5 pont)
+### 5. **Stílus és megjelenés** (3 pont)
 
 - **Reszponzív dizájn** (1 pont): Az alkalmazás reszponzív, mobilon és asztali nézetben is jól használható.
-- **Felhasználóbarát felület** (2 pont): Az alkalmazás felhasználóbarát és könnyen használható.
-- **Egységes stílus** (2 pont): Az alkalmazás stílusa konzisztens az összes komponens között.
+- **Felhasználóbarát felület** (1 pont): Az alkalmazás felhasználóbarát és könnyen használható.
+- **Egységes stílus** (1 pont): Az alkalmazás stílusa konzisztens az összes komponens között.
 
-### 6. **Hibakezelés és validáció** (5 pont)
+### 6. **Hibakezelés és validáció** (2 pont)
 
-- **Hibás adatkezelés** (3 pont): A rendszer megfelelően kezeli az esetleges hibákat (pl. JSON server nem érhető el, vagy hibás adat érkezik).
-- **Űrlapok validálása** (2 pont): A felhasználó csak helyes adatokat tud beküldeni (pl. minden kérdés esetén ki kell választani egy válaszlehetőséget).
+- **Hibás adatkezelés** (1 pont): A rendszer megfelelően kezeli az esetleges hibákat (pl. JSON server nem érhető el, vagy hibás adat érkezik).
+- **Űrlapok validálása** (1 pont): A felhasználó csak helyes adatokat tud beküldeni (pl. minden kérdés esetén ki kell választani egy válaszlehetőséget).
 
 ---
 
-# **Összesen: 50 pont**
+# **Összesen: 25 pont**
 
-### EXTRA (10 pont)
+### EXTRA (5 pont)
 
-- **Új kérdések hozzáadása** (10 pont): Az új kérdések sikeres hozzáadása egy modál segítségével. Az adatokat a JSON serveren keresztül kell tárolni, és a kvíz adatait dinamikusan frissíteni kell.
+- **Új kérdések hozzáadása** (5 pont): Az új kérdések sikeres hozzáadása egy modál segítségével. Az adatokat a JSON serveren keresztül kell tárolni, és a kvíz adatait dinamikusan frissíteni kell.
