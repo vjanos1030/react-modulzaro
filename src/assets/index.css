@@ -1,0 +1,78 @@
+body {
+  background-color: #628cd8;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #333;
+}
+
+.container {
+  max-width: 900px;
+  margin-top: 50px;
+}
+
+.logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 150px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+.btn-success {
+  background-color: #ff6347;
+  border-color: #ff6347;
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+}
+
+.btn-primary:hover, .btn-success:hover {
+  opacity: 0.8;
+}
+
+.progress-bar {
+  background-color: #007bff;
+}
+
+.modal-content {
+  border-radius: 15px;
+}
+
+.modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+.modal-footer .btn-primary {
+  background-color: #ff6347;
+}
+
+input[type="radio"] {
+  margin-right: 10px;
+}
+
+.answer {
+  display: block;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1.2rem;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Átmenet a sima váltáshoz */
+}
+
+.answer:hover {
+  background-color: rgba(0, 123, 255, 0.8); /* Kék színre váltás hoverkor */
+  color: yellow; /* Szöveg színének sárgára váltása hoverkor */
+}
