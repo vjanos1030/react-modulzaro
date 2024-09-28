@@ -69,10 +69,10 @@ input[type="radio"] {
   background-color: rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease; /* Átmenet a sima váltáshoz */
+  transition: background-color 0.3s ease, color 0.3s ease; 
 }
 
 .answer:hover {
-  background-color: rgba(0, 123, 255, 0.8); /* Kék színre váltás hoverkor */
-  color: yellow; /* Szöveg színének sárgára váltása hoverkor */
+  background-color: rgba(0, 123, 255, 0.8); 
+  color: yellow; 
 }
